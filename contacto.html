@@ -67,28 +67,59 @@
             </div>
         </div>
     </nav>
-    <!-- CARROUSEL -->
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="./img/gatitos1.jpg" class="d-block w-100" alt="...">
+    <!-- SECCION PRINCIPAL -->
+    <main class="principal_contacto">
+        <form class="row g-3 col-md-8">
+            <div class="col-md-6">
+                <label for="inputNombre" class="form-label">Nombre</label>
+                <input type="text" class="form-control" id="inputNombre">
             </div>
-            <div class="carousel-item">
-                <img src="./img/gatitos2.jpg" class="d-block w-100" alt="...">
+            <div class="col-md-6">
+                <label for="inputApellido" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="inputApellido">
             </div>
-            <div class="carousel-item">
-                <img src="./img/gatitos3.jpg" class="d-block w-100" alt="...">
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
             </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </button>
-    </div>
+            <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Telefono</label>
+                <input type="password" class="form-control" id="inputPassword4">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress" class="form-label">Direccion</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Por ahi 123">
+            </div>
+            <div class="col-12">
+                <label for="inputAddress2" class="form-label">Direccion 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Departamento, estudio o piso">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">Provincia/label>
+                    <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="col-md-6">
+                <label for="inputCity" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="inputCity">
+            </div>
+            <div class="mb-3 col-md-12">
+                <label for="exampleFormControlTextarea1" class="form-label">Texto / Comentario</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="col-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                        Suscribirme a newsletter.
+                    </label>
+                </div>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary" type="submit">Enviar</button>
+                <button class="btn btn-primary" type="reset">Borrar</button>
+            </div>
+        </form>
+    </main>
     <!-- FOOTER -->
     <footer class="bg-dark">
         <div class="dropdown">

@@ -8,3 +8,28 @@ footer{
     text-align: center;
     height: auto;
 }
+.alert{
+    margin-top: 1%;
+}
+.ratio{
+    display: inline-block;
+}
+.principal{
+    text-align: center;
+}
+.principal_links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    margin: 0.5%;
+}
+.principal_contacto{
+    display: flex;
+    justify-content: center;
+}
+main form{
+    margin: 1%;
+}
